@@ -1,4 +1,4 @@
-from Mascota import Mascota
+from Clases.mascota import Mascota
 
 miMascota = Mascota ()
 miMascota.setNombre ( "sasha")
