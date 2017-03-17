@@ -1,11 +1,11 @@
-import datetime
+from alumnos.alumno import Alumno
+from datetime import date
 
-from alumnos.ej1 import ej1:
+a = Alumno()
+a.setNombre = ("aylu")
+a.setAapellido = ("Tozzo")
+a.setFecha_nacimiento = (date(2000, 4, 26))
+a.agregar_nota(4)
+a.agregar_nota(5)
 
-Alumno = ej1 ()
-Alumno.nombre = ("aylu")
-Alumno.apellido=("Tozzo")
-Alumno.fecha_nac= 12/05/1999
-
-
-
+print(a.promedio())
