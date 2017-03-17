@@ -13,8 +13,16 @@ class ALumno (object):
     def setfecha_nac(self, Fecha_n):
         self.fecha_nac= str(fecha_n)
 
-    def Agregar_nota (self, agreg_nota):
-        self.Agregar_nota= str (agreg_nota)
+    def agregar_nota (self, agreg_nota):
+        self.agregar_nota= str (agreg_nota)
 
+    def menor_nota (self, men_not):
+        self.menor_nota= str (men_not)
+
+    def mayor_nota(self, may_not):
+        self.mayor_nota = str(may_not)
+
+    def promedio (self, prom):
+        self.promedio= prom:
 
 
