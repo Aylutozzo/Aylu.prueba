@@ -1,15 +1,17 @@
-class Materia (objet)
-    nombre_materia = " "
-    lista_materias [ ]
+class Materia(object):
+    nombre=""
+    listaNotas=[]
 
-def agregar_materia (self.lista_materias):
-     self.lista_materias.append(nombre_materias)
+    def __init__(self):
+        self.listaNotas=[]
 
-def agregar_nota (self.lista_materias):
-    self.lista_materias.append(nota)
+    def set_nombre(self, n):
+        self.nombre=n
 
-def promedio_nota_materia (self):
-    return (sum(self.lista_materias)) / len(self.lista_materias)
+    def agregar_nota(self, nota):
+        self.listaNotas.append(nota)
 
-def __init__ (self):
-    self.lista_materias
+    def promedio(self):
+        if len(self.listaNotas)==0:
+            return 0
+return sum(self.listaNotas)/len(self.listaNotas)
