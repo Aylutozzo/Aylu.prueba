@@ -1,9 +1,0 @@
-class Equipo (object):
-    nombre=""
-    disponibilidad
-    capitan=""
-
-    def setNombreEquipo (self,Ne):
-        self.nombre= str(Ne)
-
-    def

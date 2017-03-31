@@ -1,14 +1,15 @@
 class Jugador(object):
     nombre=""
     fecha_nacimiento= None
-    num_camiseta
+    num_camiseta= None
 
-    def setNombre (self, n)
+    def setNombre (self, n)   :
         self.nombre= str(n)
 
     def setNum_camiseta(self, numero):
-        self.num_camiseta = str(numero)
+        self.num_camiseta = numero
 
-    def Fecha_de_nacimiento(self, date):
-        self.fecha_nacimiento=(2000,4,26)
+    def Fecha_de_nacimiento(self, fecha_nac):
+        self.fecha_nacimiento=fecha_nac
+
 
