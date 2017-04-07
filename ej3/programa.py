@@ -38,14 +38,15 @@ jugador6.setNombre("Messi")
 jugador6.Fecha_de_nacimiento(date(1986,8,16))
 jugador6.setNum_camiseta(10)
 
-
 equipo1.setNombreEquipo("river")
 equipo1.setCapitan(jugador1)
-
 
 equipo2.setNombreEquipo("argentina")
 equipo2.setCapitan(jugador6)
 
-
 elTorneo.Agregar_equipo(equipo1)
 elTorneo.Agregar_equipo(equipo2)
+
+print (jugador1.nombre)
+print (jugador1.num_camiseta)
+

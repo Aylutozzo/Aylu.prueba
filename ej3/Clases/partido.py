@@ -10,7 +10,7 @@ class Partido (object):
         self.dia= d
 
     def Turno(self, t):
-        sefl.turno= str(t)
+        self.turno= str(t)
 
 
 
