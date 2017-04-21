@@ -1,0 +1,4 @@
+from .vehiculo import Vehiculo
+
+class Camioneta(vehiculo):
+    capacidad_carga= None

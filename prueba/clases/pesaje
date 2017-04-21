@@ -1,0 +1,17 @@
+class Pesaje(object):
+    peso= None
+    altura= None
+    fecha_pesaje= None
+
+    def Agregar_peso(self,pesa):
+        self.peso.append(pesa)
+
+    def Agregar_altura(self,mide):
+        self.altura.append(mide)
+
+    def Fecha_pesaje(self, fecha_p):
+        self.fecha_pesaje.append(fecha_p)
+
+
+
+

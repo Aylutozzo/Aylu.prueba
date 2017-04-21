@@ -1,0 +1,4 @@
+class Vehiculo (object):
+    patente= None
+    cant_ruedas= None
+    año_fabricacion=None

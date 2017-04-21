@@ -1,0 +1,24 @@
+from clases.pesaje import Pesaje
+
+class Registro(object):
+    lista_peso = None
+    lista_altrua = None
+    fecha_pesaje= None
+
+    def __init__(self):
+        self.lista_peso = []
+
+    def __init__(self):
+        self.lista_altura = []
+
+    def Conocer_PesoYaltuta(self, fecha_dia):
+        for item in fecha_pesaje:
+            if fecha_pesaje= fecha
+                return lista_peso[item], lista_altura[item]
+
+    def promedio_peso (self):
+        return (sum(self.lista_peso))/ len(self.lista_peso)
+
+    def promedio_altura(self):
+        return (sum(self.lista_altura)) / len(self.lista_altrua)
+

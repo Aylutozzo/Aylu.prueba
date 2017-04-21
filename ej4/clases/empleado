@@ -1,0 +1,22 @@
+class Empleado(object):
+    nombre= " "
+    apellido=" "
+    telefono= None
+    fecha_nacimiento= None
+    dias_asistencia=[]
+
+    def setNombre(self,nombre):
+      self.nombre= str(nombre)
+
+    def setApellido(self,apellido):
+      self.apellido= str(apellido)
+
+    def Telefono(self,tel)
+      self.telefono= tel
+
+    def Fecha_Nacimiento(self, fecha_nac):
+        self.fecha_nacimiento= fecha_nac
+
+    def __init__(self):
+        self.dias_asistencia[]
+

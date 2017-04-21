@@ -1,0 +1,15 @@
+class Persona(object):
+    nombre = " "
+    apellido = " "
+    fecha_nacimiento = None
+
+
+    def setNombre(self, nombre):
+        self.nombre = str(nombre)
+
+    def setApellido(self, apellido):
+        self.apellido = str(apellido)
+
+    def fecha_nac(self, fecha_n):
+        self.fecha_nacimiento = fecha_n
+

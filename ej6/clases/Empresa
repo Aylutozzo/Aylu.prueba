@@ -1,0 +1,12 @@
+from .Camioneta import Camioneta
+from .auto import Auto
+
+class Empresa(object):
+    lista_camionetas = []
+    lista_autos=[]
+
+    def __init__(self):
+        self.lista_autos[]
+
+    def __init__ (self):
+        self.lista_camionetas[]
