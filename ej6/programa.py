@@ -12,4 +12,4 @@ a.descapotanle= True
 print(a.descapotanle)
 print(c.patente)
 print(c.capacidad_carga)
-print(a.patente)
+
