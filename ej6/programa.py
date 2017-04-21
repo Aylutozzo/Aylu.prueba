@@ -7,9 +7,9 @@ c.capacidad_carga=50
 c.patente="aa000aa"
 
 a=auto()
-a.descapotanle= True
+a.descapotable= True
 
-print(a.descapotanle)
+print(a.descapotanble)
 print(c.patente)
 print(c.capacidad_carga)
-print(a.patente)
+
