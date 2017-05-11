@@ -9,6 +9,7 @@ class Pedido(object):
     dia= None
     hora=None
 
+
     def fecha_creacion(self,fecha_creacion):
         self.fecha_creacion= fecha_creacion
 
@@ -26,4 +27,3 @@ class Pedido(object):
 
     def hora(self,hora):
         self.hora=hora
-
