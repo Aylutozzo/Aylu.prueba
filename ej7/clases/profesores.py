@@ -1,6 +1,6 @@
-from .personas import Personas
+from .persona import Persona
 
-class Profesores(Personas):
+class Profesor(Persona):
     descuento= None
 
     def getDescuento(self):

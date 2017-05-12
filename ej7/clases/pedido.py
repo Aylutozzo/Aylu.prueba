@@ -8,6 +8,7 @@ class Pedido(object):
     plato= None
     dia= None
     hora=None
+    id_pedido=None
 
 
     def fecha_creacion(self,fecha_creacion):

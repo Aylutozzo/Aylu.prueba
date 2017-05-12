@@ -9,7 +9,7 @@ class  Persona (object):
     def setApellido(self,apellido):
         self.apellido= str(apellido)
 
-    def Dni(self.dni):
+    def Dni(self,dni):
         self.dni= dni
 
     def getDescuento(self):
