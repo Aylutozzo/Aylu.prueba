@@ -9,6 +9,7 @@ lista_profesor=[]
 lista_pedidos=[]
 lista_platos=[]
 lista_personas=[]
+platococinar=[]
 
 opcion=None
 opcion2= None
@@ -29,6 +30,7 @@ fechac=None # fecha de creacion
 plato=None #plato
 persona=None #persona
 entregado=bool #entregado
+fechap= None #fecha del dia a entregar el plato
 
 
 def agregarAlumno(n,a,div,dni):
@@ -119,8 +121,23 @@ def eliminarPedido(idpedido):
         if item.id_pedido==idpedido:
             lista_pedidos.remove(item)
 
+def platosCocinar(dia, plato, persona,descuento):
+    print("ingrese la fecha")
+    fechap=input()
+    for item in lista_platos:
+        if fechac== fechap:
+            platoc=plato()
+            platoc.agregarPlato=
+            platoc.
+
+
+
+
+
+
+
 print("menu buffes")
-print(\n)
+
 print ("elija opcion:")
 
 print("opcion1: agregar persona")

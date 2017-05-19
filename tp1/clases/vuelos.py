@@ -1,5 +1,5 @@
 class Vuelos (object):
-    avion_correspondiente=None
+    avion=None
     lista_pasajeros=[]
     lista_tripulantes=[]
     dia=None
@@ -8,7 +8,7 @@ class Vuelos (object):
     destino=None
 
     def Avion(self,avion):
-        self.avion_correspondiente=avion
+        self.avion=avion
 
     def __init__(self):
         self.lista_pasajeros = []
@@ -33,3 +33,5 @@ class Vuelos (object):
 
     def Destino(self,destino):
         self.destino=destino
+
+    v = open("/home/alumno/descargas/vuelos.dat", "r")

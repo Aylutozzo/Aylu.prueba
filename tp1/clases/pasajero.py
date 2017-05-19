@@ -14,3 +14,4 @@ class Pasajero(Persona):
     def necesidadEspecial(self,nec_especial):
         self.necesidad_especial=nec_especial
 
+

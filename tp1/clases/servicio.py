@@ -1,6 +1,6 @@
 from .tripulantes import Tripulantes
 
-class Servicio (Tripulantes)
+class Servicio (Tripulantes):
     servicio=None
     idioma=None
 

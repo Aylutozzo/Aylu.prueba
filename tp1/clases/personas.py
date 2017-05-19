@@ -3,6 +3,7 @@ class Persona (object):
     apellido=None
     fecha_nacimiento=None
     dni=None
+    tipo=None
 
     def setNombre(self,nombre):
         self.nombre=str(nombre)
@@ -15,4 +16,8 @@ class Persona (object):
 
     def Dni(self,dni):
         self.dni=dni
+
+    def tipo(self,tipo):
+        self.tipo=tipo
+
 
